@@ -1,0 +1,64 @@
+{
+  "links": [
+    {
+      "id": 0,
+      "title": "Full moon rising over Mount Hood",
+      "Image": "images/0.png",
+      "submitDateTime": "1514212275057",
+      "submittingUsername": "paz",
+      "votesCount": 22
+    },
+    {
+      "id": 1,
+      "title": "What projects to build?",
+      "Image": "images/1.png",
+      "submitDateTime": "1514212507664",
+      "submittingUsername": "paz",
+      "votesCount": 26
+    },
+    {
+      "id": 2,
+      "title": "Default states and dispatched actions",
+      "Image": "images/2.png",
+      "submitDateTime": "1514212507664",
+      "submittingUsername": "greg",
+      "votesCount": 6
+    }
+  ],
+  "comments": {
+    "1": [
+      {
+        "id": 1000,
+        "text": "Pick an open api and create a website that shows the results of queries to that api. Make it as pretty as you can, Add a search field, Use react-router-dom to modify the path based on the resource requested, Add intuitive keyboard controls, Make it accessible for screen readers, Have fun",
+        "submitDateTime": "1514237269969",
+        "submittingUsername": "paz",
+        "votesCount": 0
+      },
+      {
+        "id": 1001,
+        "text": "Basically, think of a pain you have in your life, or someone you know personally has. Then solve it with an app.",
+        "submitDateTime": "1514237282264",
+        "submittingUsername": "eran",
+        "votesCount": 0
+      }
+    ],
+    "1000": [
+      {
+        "id": 1002,
+        "text": "Even better is if you add some kind of data analytics. So let's say you are fetching a list of posts from reddit - add some kind of function to analyze the most commonly used words (filtering out the, a, and, etc)",
+        "submitDateTime": "1514237269969",
+        "submittingUsername": "paz",
+        "votesCount": 0
+      }
+    ],
+    "1001": [
+      {
+        "id": 1003,
+        "text": "I'd strongly suggest doing this, i.e. making it personal. It's much better to have an original idea that is solving something specifically for you, because you'll be much more motivated to build it. I think cloning is even fine if there's a personal reason behind it - I love CLI programs, so I ended up cloning a version of Free Cell Solitaire that I used to play on the commandline when I first got into Linux. I was so into building it because of the nostalgia for playing that game and it felt very personal to me. I'm working on something now in React that has to do with tracking and suggesting things I want to do with my wife and family because I keep wishing I had a tool for that, and a ToDo list isn't really what I'm looking for. It's been great because it's scratching an actual itch I have, so I'm not just building components for no reason. That's what connects the pathways for me the most.",
+        "submitDateTime": "1514237269969",
+        "submittingUsername": "paz",
+        "votesCount": 0
+      }
+    ]
+  }
+}

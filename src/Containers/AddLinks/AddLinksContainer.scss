@@ -1,0 +1,29 @@
+.AddLinksContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  section {
+    border: 1px solid cornflowerblue;
+    border-radius: .5em;
+    padding: .5em;
+
+    input {
+      border: 1px solid cornflowerblue;
+      border-radius: .5em;
+      padding: .5em;
+      margin-bottom: 1em;
+    }
+
+    button {
+      border: 1px solid cornflowerblue;
+      border-radius: .5em;
+      padding: .5em;
+      margin-bottom: 1em;
+      background-color: coral;
+      color: whitesmoke;
+      font-weight: bold;
+    }
+  }
+}

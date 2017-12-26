@@ -1,0 +1,36 @@
+.CommentComponent {
+  margin-left: 1em;
+  padding: 1em;
+
+  .comment {
+    display: flex;
+    .vote {
+      display: flex;
+      flex-direction: column;
+      color: lightgray;
+      font-weight: bold;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+    }
+
+    .fa {
+      cursor: pointer;
+    }
+
+    .content {
+      flex: 10;
+      align-items: flex-start;
+
+      .submitted {
+        color: grey;
+      }
+
+      .comments-count {
+        color: grey;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}

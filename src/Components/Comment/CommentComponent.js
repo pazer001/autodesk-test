@@ -29,7 +29,7 @@ class CommentComponent extends React.Component {
         const {id, parentId, commentKey, text, commentsLength, submitDateTime, votesCount, submittingUsername, dispatch} = this.props;
         const {addCommentPopupActive, showComments} = this.state;
         const submitted = moment(Number(submitDateTime)).from(moment(new Date().getTime()));
-        console.log(id)
+
         return (
             <div className="CommentComponent">
                 <section className="comment">

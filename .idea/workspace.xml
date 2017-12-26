@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265ba11e-4566-4e28-8f2a-41a5be3f09c3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/autodesk-test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/env.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/paths.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/polyfills.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/data.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/manifest.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/build.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/start.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Actions/MainActions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/App.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/App.test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/AddComment/AddCommentComponent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/AddComment/AddCommentComponent.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Comment/CommentComponent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Comment/CommentComponent.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Link/LinkComponent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Link/LinkComponent.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Containers/AddLinks/AddLinksContainer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Containers/AddLinks/AddLinksContainer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Containers/Comments/CommentsContainer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Containers/Comments/CommentsContainer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Containers/Links/LinksContainer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Containers/Links/LinksContainer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Containers/Login/LoginContainer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Containers/Login/LoginContainer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Reducers/MainReducer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/constants.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/store.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,8 +74,8 @@
       <file leaf-file-name="MainReducer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Reducers/MainReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="580">
+              <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -203,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/Components/Link/LinkComponent.js" />
         <option value="$PROJECT_DIR$/src/Containers/Links/LinksContainer.js" />
         <option value="$PROJECT_DIR$/src/Reducers/MainReducer.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -393,6 +349,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -401,7 +358,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15015975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -425,6 +382,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="autodesk test" />
+    <option name="LAST_COMMIT_MESSAGE" value="autodesk test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -632,10 +593,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="40">
+            <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Reducers/MainReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="580">
+          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
           <folding />
         </state>
       </provider>

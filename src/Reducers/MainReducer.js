@@ -37,13 +37,13 @@ export default (state = initialState, action) => {
             const links = [...state.links];
 
             //Make sure one vote per user
-            if (links[linkKey].canVote === false) return state;
+            if (links[linkKey].lastVote === type) return state;
 
             //Make sure there will be no negative numbers
             if (links[linkKey].votesCount === 0 && !type) return state;
 
             links[linkKey].votesCount = type ? links[linkKey].votesCount + 1 : links[linkKey].votesCount - 1;
-            links[linkKey].canVote = false;
+            links[linkKey].lastVote = type;
             state = {...state, links};
             break;
         }
@@ -54,13 +54,13 @@ export default (state = initialState, action) => {
 
 
             //Make sure one vote per user
-            if (comments[parentId][commentKey].canVote === false) return state;
+            if (comments[parentId][commentKey].lastVote === type) return state;
 
             //Make sure there will be no negative numbers
             if (comments[parentId][commentKey].votesCount === 0 && !type) return state;
 
             comments[parentId][commentKey].votesCount = type ? state.comments[parentId][commentKey].votesCount + 1 : state.comments[parentId][commentKey].votesCount - 1;
-            comments[parentId][commentKey].canVote = false;
+            comments[parentId][commentKey].lastVote = type;
             state = {...state, comments};
             break;
         }
@@ -71,12 +71,12 @@ export default (state = initialState, action) => {
 
             if (!comments[id]) comments[id] = [];
             comments[id].push({
-                id,
                 text,
                 submitDateTime: new Date().getTime(),
                 submittingUsername: state.loginName,
                 votesCount: 0
             });
+            comments[id].id     =   comments[id].length;
             state = {...state, comments};
             break;
         }

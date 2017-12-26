@@ -3,12 +3,13 @@ import moment from 'moment';
 import './LinkComponent.scss';
 
 import CommentsContainer from '../../Containers/Comments/CommentsContainer';
+import AddCommentContainer from '../../Containers/AddComment/AddCommentContainer';
 import {linkVote} from "../../Actions/MainActions";
 
 export default class LinkComponent extends React.Component {
     constructor() {
         super();
-        this.state = {toggleComments: false};
+        this.state = {toggleComments: false, addLinkPopupActive: false, addCommentPopupActive: false};
     }
 
     toggleComments() {
@@ -16,12 +17,18 @@ export default class LinkComponent extends React.Component {
         this.setState({toggleComments: !toggleComments})
     }
 
+    openAddCommentPopup() {
+        this.setState({addCommentPopupActive: true});
+    }
+
+    closeAddCommentPopup() {
+        this.setState({addCommentPopupActive: false})
+    }
+
     render() {
         const {linkId, index, title, submittingUsername, submitDateTime, votesCount, commentsLength, dispatch} = this.props;
-        const {toggleComments} = this.state;
+        const {toggleComments, addCommentPopupActive} = this.state;
         const submitted = moment(Number(submitDateTime)).from(moment(new Date().getTime()));
-
-        console.log('LinkComponent')
 
         return (
             <article key={index} className="LinkComponent">
@@ -38,14 +45,17 @@ export default class LinkComponent extends React.Component {
                     <div className="content">
                         <h1>{title}</h1>
                         <div className="submitted">submitted {submitted} ago by {submittingUsername}</div>
-                        <div className="comments-count"
-                             onClick={this.toggleComments.bind(this)}>{commentsLength} comments
+                        <div className="comments-count">
+                            <span onClick={this.toggleComments.bind(this)}>{commentsLength} comments</span> - <span
+                            onClick={this.openAddCommentPopup.bind(this)}>Add comment</span>
                         </div>
                     </div>
+
                 </section>
                 {toggleComments && commentsLength ?
                     <section className="comments"><CommentsContainer id={linkId}/></section> : null}
-
+                {addCommentPopupActive ? <AddCommentContainer id={linkId}
+                                                              closeAddCommentPopup={this.closeAddCommentPopup.bind(this)}/> : null}
             </article>
         )
     }

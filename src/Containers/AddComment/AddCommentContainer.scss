@@ -15,13 +15,14 @@
     background-color: cornflowerblue;
     width: 50%;
     height: 50%;
+    border-radius: 1em;
 
-    input {
+    textarea {
       border: 1px solid orangered;
       border-radius: .5em;
       margin-bottom: 1em;
-      width: 50%;
-      height: 50%;
+      width: 75%;
+      height: 25%;
     }
 
     button {
@@ -30,6 +31,8 @@
       background-color: orangered;
       color: whitesmoke;
       cursor: pointer;
+      padding: 1em;
+      margin: 1em;
     }
   }
 }

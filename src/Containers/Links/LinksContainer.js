@@ -17,7 +17,6 @@ class LinksContainer extends React.Component {
 
     render() {
         const {links, comments, dispatch} = this.props;
-        console.log('LinksContainer');
         return (
             <main className="LinksContainer">
                 <header>

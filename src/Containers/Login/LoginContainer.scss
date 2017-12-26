@@ -8,12 +8,17 @@
     border: 1px solid cornflowerblue;
     border-radius: .5em;
     padding: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     input {
       border: 1px solid cornflowerblue;
       border-radius: .5em;
       padding: .5em;
       margin-bottom: 1em;
+      outline: none;
     }
 
     button {
@@ -24,6 +29,7 @@
       background-color: coral;
       color: whitesmoke;
       font-weight: bold;
+      cursor: pointer;
     }
   }
 }
